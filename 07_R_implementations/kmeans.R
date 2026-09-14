@@ -1,0 +1,5 @@
+data(iris)
+x <- scale(iris[,1:4])
+set.seed(42)
+km <- kmeans(x, centers=3, nstart=20)
+print(table(km$cluster, iris$Species))

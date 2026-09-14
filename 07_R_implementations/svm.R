@@ -1,0 +1,8 @@
+# install.packages("e1071")
+library(e1071)
+data(iris)
+set.seed(42)
+idx <- sample(seq_len(nrow(iris)), size = 0.8*nrow(iris))
+model <- svm(Species ~ ., data=iris[idx,], kernel="radial")
+pred <- predict(model, iris[-idx,])
+print(mean(pred == iris$Species[-idx]))

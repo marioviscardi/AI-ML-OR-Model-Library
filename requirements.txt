@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+torch
+torchvision
+tensorflow
+pulp
+ortools
+deap
+pymoo
+xgboost
+lightgbm
+umap-learn
+hdbscan

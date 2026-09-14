@@ -1,0 +1,8 @@
+# install.packages("randomForest")
+library(randomForest)
+data(iris)
+set.seed(42)
+idx <- sample(seq_len(nrow(iris)), size = 0.8*nrow(iris))
+model <- randomForest(Species ~ ., data=iris[idx,], ntree=300)
+pred <- predict(model, iris[-idx,])
+print(mean(pred == iris$Species[-idx]))

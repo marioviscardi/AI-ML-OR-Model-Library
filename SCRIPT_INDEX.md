@@ -1,40 +1,36 @@
-# Índice de scripts
+# Índice da biblioteca
 
-- `01_neural_networks/ann/ann_classification.py`
-- `01_neural_networks/ann/ann_regression.py`
-- `01_neural_networks/computer_vision/cnn_mnist_pytorch.py`
-- `01_neural_networks/computer_vision/transfer_learning_resnet.py`
-- `01_neural_networks/language_models/attention_from_scratch.py`
-- `01_neural_networks/language_models/mini_transformer_language_model.py`
-- `02_supervised_machine_learning/decision_tree.py`
-- `02_supervised_machine_learning/gaussian_process_regression.py`
-- `02_supervised_machine_learning/gradient_boosting.py`
-- `02_supervised_machine_learning/knn.py`
-- `02_supervised_machine_learning/linear_regression.py`
-- `02_supervised_machine_learning/random_forest.py`
-- `02_supervised_machine_learning/svm.py`
-- `03_unsupervised_learning/dbscan.py`
-- `03_unsupervised_learning/gaussian_mixture.py`
-- `03_unsupervised_learning/hierarchical_clustering.py`
-- `03_unsupervised_learning/isolation_forest.py`
-- `03_unsupervised_learning/kmeans.py`
-- `03_unsupervised_learning/pca.py`
-- `04_operations_research/assignment/hungarian_algorithm.py`
-- `04_operations_research/integer_programming/knapsack_ortools.py`
-- `04_operations_research/linear_programming/scipy_linprog.py`
-- `04_operations_research/networks/dijkstra.py`
-- `04_operations_research/nonlinear/gradient_descent.py`
-- `04_operations_research/routing/tsp_bruteforce.py`
-- `04_operations_research/scheduling/job_shop_ortools.py`
-- `05_metaheuristics/ant_colony_tsp.py`
-- `05_metaheuristics/differential_evolution.py`
-- `05_metaheuristics/genetic_algorithm.py`
-- `05_metaheuristics/particle_swarm_optimization.py`
-- `05_metaheuristics/simulated_annealing.py`
-- `06_optimization_for_neural_networks/pso_optimize_nn_weights.py`
-- `06_optimization_for_neural_networks/pytorch_optimizers_demo.py`
-- `07_R_implementations/kmeans.R`
-- `07_R_implementations/linear_programming.R`
-- `07_R_implementations/neural_network_regression.R`
-- `07_R_implementations/random_forest.R`
-- `07_R_implementations/svm.R`
+A biblioteca contém **120 scripts** executáveis ou didáticos.
+
+| Grupo | Scripts |
+|---|---:|
+| Redes neurais, CNNs e modelos de linguagem | 25 |
+| Machine Learning supervisionado | 25 |
+| Aprendizado não supervisionado | 15 |
+| Pesquisa Operacional | 18 |
+| Metaheurísticas | 15 |
+| Otimização de redes neurais | 13 |
+| Implementações em R | 9 |
+
+## Famílias principais
+
+### Redes neurais e visão computacional
+ANN, CNN, LeNet, AlexNet, VGG16, GoogLeNet/Inception, ResNet18, DenseNet121, EfficientNet-B0, MobileNetV3, U-Net, Vision Transformer e transfer learning.
+
+### Redes sequenciais e LLMs
+RNN, LSTM, GRU, Seq2Seq, self-attention, multi-head attention, Transformer encoder-decoder, Transformer causal, GPT mínimo, LoRA e fine-tuning.
+
+### Machine Learning supervisionado
+Decision Tree, Random Forest, KNN, SVM/SVR, Linear Regression, Ridge, Lasso, Elastic Net, Gaussian Process Regression, Extra Trees, AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost, LDA, QDA, Naive Bayes, Logistic Regression, Voting e Stacking.
+
+### Aprendizado não supervisionado
+K-Means, K-Medoids, DBSCAN, HDBSCAN, Mean Shift, clustering hierárquico, Spectral Clustering, Gaussian Mixture, PCA, Kernel PCA, ICA, t-SNE, UMAP, Isolation Forest e Autoencoder.
+
+### Pesquisa Operacional
+Programação linear, Simplex, MIP, Branch and Bound, mochila, atribuição, transporte, fluxo máximo, fluxo de custo mínimo, Dijkstra, TSP, VRP, CVRP, VRPTW, PERT/CPM, Job Shop, Flow Shop e otimização não linear.
+
+### Metaheurísticas
+Genetic Algorithm, Differential Evolution, Simulated Annealing, PSO, ACO, Tabu Search, Harmony Search, Artificial Bee Colony, Firefly, Cuckoo Search, Grey Wolf Optimizer, NSGA-II, NSGA-III, Nelder-Mead e Basin Hopping.
+
+### Otimização de redes neurais
+SGD, Momentum, Nesterov, AdaGrad, RMSProp, Adam, AdamW, L-BFGS, Levenberg-Marquardt, PSO de pesos e estratégias híbridas GA/PSO + gradiente.

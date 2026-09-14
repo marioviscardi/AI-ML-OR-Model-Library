@@ -1,0 +1,8 @@
+category,count,main_models
+01_neural_networks,25,"ANN; CNN; LeNet; AlexNet; VGG; Inception; ResNet; DenseNet; EfficientNet; MobileNet; U-Net; ViT; RNN; LSTM; GRU; Seq2Seq; Attention; Transformer; GPT; LoRA; Fine-tuning"
+02_supervised_machine_learning,25,"Decision Tree; Random Forest; KNN; SVM; SVR; Linear Regression; Ridge; Lasso; Elastic Net; Gaussian Process; Extra Trees; AdaBoost; Gradient Boosting; XGBoost; LightGBM; CatBoost; LDA; QDA; Naive Bayes; Logistic Regression; Voting; Stacking"
+03_unsupervised_learning,15,"K-Means; K-Medoids; DBSCAN; HDBSCAN; Mean Shift; Hierarchical; Spectral; Gaussian Mixture; PCA; Kernel PCA; ICA; t-SNE; UMAP; Isolation Forest; Autoencoder"
+04_operations_research,18,"LP; Simplex; MIP; Branch and Bound; Knapsack; Assignment; Transportation; Max Flow; Min Cost Flow; Dijkstra; TSP; VRP; CVRP; VRPTW; PERT/CPM; Job Shop; Flow Shop; Gradient Descent"
+05_metaheuristics,15,"GA; Differential Evolution; Simulated Annealing; PSO; ACO; Tabu Search; Harmony Search; ABC; Firefly; Cuckoo Search; GWO; NSGA-II; NSGA-III; Nelder-Mead; Basin Hopping"
+06_optimization_for_neural_networks,13,"SGD; Momentum; Nesterov; AdaGrad; RMSProp; Adam; AdamW; L-BFGS; Levenberg-Marquardt; PSO weights; GA+gradient; PSO+gradient"
+07_R_implementations,9,"Random Forest; SVM; K-Means; Linear Programming; Neural Network Regression; Ridge/Lasso/Elastic Net; PCA; Hierarchical Clustering; Genetic Algorithm"

@@ -1,0 +1,2 @@
+from ortools.constraint_solver import pywrapcp,routing_enums_pb2
+D=[[0,4,8,6,7],[4,0,5,3,6],[8,5,0,4,3],[6,3,4,0,2],[7,6,3,2,0]]; m=pywrapcp.RoutingIndexManager(len(D),2,0); r=pywrapcp.RoutingModel(m); cb=r.RegisterTransitCallback(lambda a,b:D[m.IndexToNode(a)][m.IndexToNode(b)]);r.SetArcCostEvaluatorOfAllVehicles(cb);p=pywrapcp.DefaultRoutingSearchParameters();p.first_solution_strategy=routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC;s=r.SolveWithParameters(p);print(bool(s))

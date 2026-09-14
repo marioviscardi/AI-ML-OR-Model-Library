@@ -2,7 +2,9 @@ numpy
 pandas
 scipy
 scikit-learn
+scikit-learn-extra
 matplotlib
+networkx
 torch
 torchvision
 tensorflow
@@ -12,5 +14,6 @@ deap
 pymoo
 xgboost
 lightgbm
+catboost
 umap-learn
 hdbscan

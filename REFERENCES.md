@@ -1,12 +1,10 @@
 # Referências públicas recomendadas
 
-Projetos oficiais ou amplamente utilizados para consulta complementar:
-
-- PyTorch Examples: https://github.com/pytorch/examples
+- PyTorch: https://github.com/pytorch/examples
 - TorchVision: https://github.com/pytorch/vision
-- Keras Examples: https://github.com/keras-team/keras-io
+- Keras: https://github.com/keras-team/keras-io
 - scikit-learn: https://github.com/scikit-learn/scikit-learn
-- Google OR-Tools: https://github.com/google/or-tools
+- OR-Tools: https://github.com/google/or-tools
 - Pyomo: https://github.com/Pyomo/pyomo
 - PuLP: https://github.com/coin-or/pulp
 - DEAP: https://github.com/DEAP/deap
@@ -15,5 +13,7 @@ Projetos oficiais ou amplamente utilizados para consulta complementar:
 - nanoGPT: https://github.com/karpathy/nanoGPT
 - XGBoost: https://github.com/dmlc/xgboost
 - LightGBM: https://github.com/microsoft/LightGBM
-- tidymodels: https://github.com/tidymodels
-- mlr3: https://github.com/mlr-org/mlr3
+- CatBoost: https://github.com/catboost/catboost
+- UMAP: https://github.com/lmcinnes/umap
+- HDBSCAN: https://github.com/scikit-learn-contrib/hdbscan
+- NetworkX: https://github.com/networkx/networkx
